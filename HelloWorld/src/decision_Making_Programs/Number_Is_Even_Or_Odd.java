@@ -1,17 +1,18 @@
+
 package decision_Making_Programs;
 
-import java.util.Scanner;
+
 
 public class Number_Is_Even_Or_Odd {
 
 	public static void main(String[] args) {
 
 
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter the number");
-		int num = sc.nextInt();
-		
+		//int num = sc.nextInt();
+		int num =24;
 		if(num%2==0)
 		{
 			System.out.println("Its an Even Number");
